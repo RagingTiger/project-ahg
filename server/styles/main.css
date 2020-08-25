@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+  color: #cde;
+}
+
+h1 {
+ display: none;
+}
+
+#nav-view {
+  border-style: black;
+  border-color: white;
+  font-family: "Courier", monospace;
+  font-size:25px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.navilink {
+  color: inherit;
+  display: inline-block;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.navilink:hover {
+  color: orange;
+}
+
+#lblCartCount {
+  font-size: 15px;
+  font-weight: bold;
+  background: orange;
+  border-color: orange;
+  color: black;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -15px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 18px;
+}
