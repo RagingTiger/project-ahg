@@ -31,9 +31,15 @@
         // setup site navigation header (src: navigen.js)
         naviGen();
 
+        // hide cart if empty
+        toggle_cart_navi();
+
         // setup gallery view (src: gallerygen.js)
         galleryGen();
       </script>
+      <noscript>
+        <p class="js-disabled">Please enable Javascript to view site.</p>
+      </noscript>
     </body>
   </head>
 </html>
