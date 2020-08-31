@@ -40,3 +40,11 @@ h1 {
   padding-right: 4px;
   border-radius: 18px;
 }
+
+.js-disabled {
+  color: #00ff00;
+  font-family: "Courier", monospace;
+  font-size:25px;
+  margin: auto auto;
+  text-align: center;
+}
