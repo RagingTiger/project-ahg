@@ -32,3 +32,17 @@ function naviGen() {
   // add navigation html into body
   document.body.insertAdjacentHTML('afterbegin', naviView);
 }
+
+// don't display cart if empty for aesthetic reasons
+function toggle_cart_navi() {
+  // check if empty '{}'
+  if (JSON.stringify(cart) === '{}') {
+    // first get elements for cart and label
+    var cart_navilink = document.getElementById('cart');
+    var cart_lbl = document.getElementById('lblCartCount');
+
+    // now turn off
+    cart_navilink.style.display = 'none';
+    cart_lbl.style.display = 'none';
+  }
+}
