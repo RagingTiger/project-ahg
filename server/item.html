@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <!-- importing static/cart.js -->
+    <script src="scripts/cart.js"></script>
+    <!-- importing static/navigen.js -->
+    <script src="scripts/navigen.js"></script>
+    <!-- importing data/catalog.js -->
+    <script src="data/catalog.js"></script>
+    <!-- importing static/itemgen.js -->
+    <script src="scripts/itemgen.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+                                   user-scale=no, minimum-scale=1,
+                                   maximum-scale=1">
+    <style>
+     #item-view {
+       border-style: solid;
+       border-color: black;
+       font-family: "Courier", monospace;
+       font-size: 15px;
+       text-align: center;
+     }
+    </style>
+  </head>
+  <body>
+    <script id="dynamic-html">
+      // set document title (src: itemgen.js)
+      set_title();
+
+      // setup site navigation header (src: navigen.js)
+      naviGen();
+
+      // hide cart if empty (src: navigen.js)
+      toggle_cart_navi();
+
+      // setup item view (src: itemgen.js)
+      itemGen();
+    </script>
+    <noscript>
+      <p class="js-disabled">Please enable Javascript to view site.</p>
+    </noscript>
+  </body>
+</html>
