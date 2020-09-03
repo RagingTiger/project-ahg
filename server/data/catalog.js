@@ -1,4 +1,4 @@
-{
+catalog = {
   "A View of Mount Fuji Across Lake Suwa (Lake Suwa in Shinano Province)": {
     "fname": "Lake_Suwa_in_the_Shinano_province.jpg",
     "altname": "信州諏訪湖 : Shinshū Suwa-ko",
@@ -6,13 +6,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Tea house at Koishikawa. The morning after a snowfall": {
     "fname": "Tea_house_at_Koishikawa_The_morning_after_a_snowfall.jpg",
@@ -21,13 +19,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Ejiri in Suruga Province": {
     "fname": "Ejiri_in_the_Suruga_province.jpg",
@@ -36,13 +32,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Under Mannen Bridge at Fukagawa": {
     "fname": "Fuji_seen_through_the_Mannen_bridge_at_Fukagawa.jpg",
@@ -51,13 +45,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Sundai, Edo": {
     "fname": "The_Fuji_seen_from_the_Mishima_pass.jpg",
@@ -66,13 +58,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Cushion Pine at Aoyama": {
     "fname": "The_coast_of_seven_leages_in_Kamakura.jpg",
@@ -81,13 +71,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Enoshima in Sagami Province": {
     "fname": "Enoshima_in_the_Sagami_province.jpg",
@@ -96,13 +84,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "A sketch of the Mitsui shop in Suruga in Edo (present-day Muromachi, Tokyo)": {
     "fname": "A_sketch_of_the_Mitsui_shop_in_Suruga_street_in_Edo.jpg",
@@ -111,13 +97,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Hodogaya on the Tōkaidō": {
     "fname": "Hodogaya_on_the_Tokaido.jpg",
@@ -126,13 +110,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Tsukuda Island in Musashi Province": {
     "fname": "Tsukada_Island_in_the_Musashi_province.jpg",
@@ -141,13 +123,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Shichiri beach in Sagami Province": {
     "fname": "Shichiri_beach_in_Sagami_province.jpg",
@@ -156,13 +136,11 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   },
   "Mount Fuji from the mountains of Tōtōmi": {
     "fname": "The_Fuji_from_the_mountains_of_Totomi.jpg",
@@ -171,12 +149,10 @@
     "mime": "image/jpeg",
     "iwidth": "320",
     "iheight": "213",
-    "purchase_info": {
-      "price": "On Request",
-      "media": "canvas",
-      "sizes": {
-        "in": "40 x 26"
-      }
-    }
+    "dwidth": "1024",
+    "dheight": "681",
+    "price": "price on demand",
+    "medium": "canvas",
+    "size": "40x26 in"
   }
-}
+};
