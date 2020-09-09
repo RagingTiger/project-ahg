@@ -1,3 +1,26 @@
+// check price string to see if numeric
+function isPriceNumeric(num) {
+  // set is num to true
+  var is_num = true;
+
+  // make sure input is number
+  if (typeof num !== "number") {
+    // pull out non-numeric characters
+    var parsed_num = num.replace(/\$/g,'');
+
+    // check if not a number
+    if (parsed_num === '') {
+      var is_num = false;
+    }
+    else {
+      var is_num = !isNaN(parsed_num);
+    }
+  }
+
+  // true or false
+  return is_num;
+}
+
 // generate item profile
 function itemGen() {
     // get query string
