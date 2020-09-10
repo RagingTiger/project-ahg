@@ -8,7 +8,7 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "300",
     "medium": "canvas",
     "size": "40x26 in"
   },
@@ -34,7 +34,7 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "300",
     "medium": "canvas",
     "size": "40x26 in"
   },
