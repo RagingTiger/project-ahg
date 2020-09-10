@@ -15,13 +15,29 @@
                                    user-scale=no, minimum-scale=1,
                                    maximum-scale=1">
     <style>
-     #item-view {
-       border-style: solid;
-       border-color: black;
+      #item-view {
        font-family: "Courier", monospace;
        font-size: 15px;
        text-align: center;
-     }
+      }
+
+      .add2Cart {
+        background-color:black;
+        border-color: inherit;
+        color: inherit;
+        font-size: 1rem;
+        border-radius: 1em;
+        cursor: pointer;
+        border-style: none;
+      }
+
+      .add2Cart:focus {
+        outline: none;
+      }
+
+      .add2Cart:hover {
+       color: orange;
+      }
     </style>
   </head>
   <body>
@@ -37,6 +53,12 @@
 
       // setup item view (src: itemgen.js)
       itemGen();
+
+      // add javascript event listener to add buttons for cart (src: cart.js)
+      setupAddBtn();
+
+      // setup cart count label (src: cart.js)
+      setupCartCount();
     </script>
     <noscript>
       <p class="js-disabled">Please enable Javascript to view site.</p>
