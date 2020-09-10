@@ -3,7 +3,7 @@ function Item(name, price) {
   // item name
   this.name = name;
   // convert string to float
-  this.price = parseFloat(price);
+  this.price = price;
 }
 
 // event response for add2Cart button
@@ -31,6 +31,14 @@ function putInCart(event) {
     // set cart count
     let cartCount = parseInt(cartLabel.textContent, 10);
     cartLabel.textContent = ++cartCount;
+
+    // make sure cart and carlabel are displayed
+    // first get elements for cart and label
+    var cart_navilink = document.getElementById('cart');
+
+    // now turn off
+    cart_navilink.style.display = '';
+    cartLabel.style.display = '';
   }
 }
 
@@ -70,6 +78,13 @@ function rmFromCart(event) {
 
   // delete grandparent
   grandparent.remove();
+
+  // update cart label
+  let cartLabel = document.getElementById('lblCartCount');
+
+  // set cart count
+  let cartCount = parseInt(cartLabel.textContent, 10);
+  cartLabel.textContent = --cartCount;
 
   // check if all class='item' divs are deleted in div id='cart-view'
   if (greatgrandparent.childElementCount == 0) {
