@@ -43,16 +43,41 @@ function itemGen() {
       item_h = item['iheight'];
     }
 
-    // setup HTMLstring
+    // setup item image
+    var itemImg = [
+      '  <img class="item"',
+      `       src="${item['fdir']}/${item['fname']}"`,
+      `       width="${item_w}" height="${item_h}"`,
+      `       alt="${key}">`
+    ].join('\n');
+
+    // check if add2cart is necessary
+    var addBtn = '';
+    if (isPriceNumeric(item['price'])) {
+      let btnTitle = `Add ${key} ${item['medium']} ${item['size']} to Cart`;
+      let btnData = `data-name="${key}" data-price="${item['price']}"`;
+      var addBtn = [
+        `    <button class="add2Cart" ${btnData} title="${btnTitle}">`,
+        '      purchase',
+        '    </button>'
+      ].join('\n');
+    }
+
+    // setup item description
+    var itemDesc = [
+      '  <div id="item-desc">',
+      '    <span>',
+      `      ${item['medium']} | ${item['size']} | ${item['price']} |`,
+      addBtn,
+      '    </span>',
+      '  </div>'
+    ].join('\n');
+
+    // setup final item-view div
     var itemView = [
         '<div id="item-view">',
-        '  <img class="item"',
-        `       src="${item['fdir']}/${item['fname']}"`,
-        `       width="${item_w}" height="${item_h}"`,
-        `       alt="${key}">`,
-        '  <p>',
-        `    ${item['medium']} | ${item['size']} | ${item['price']}`,
-        '  </p>',
+        itemImg,
+        itemDesc,
         '</div>'
     ].join('\n');
 
