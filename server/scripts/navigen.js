@@ -25,7 +25,7 @@ function naviGen() {
       '  <a id=cart class="navilink" href="cart.html" title="Cart">',
       '    Cart',
       '  </a>',
-      '  <span id="lblCartCount">0</span>',
+      '  <span id="lblCartCount"></span>',
       '</div>'
   ].join('\n');
 
