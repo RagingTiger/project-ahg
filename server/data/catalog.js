@@ -8,9 +8,12 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "300",
+    "price": "$1000",
+    "cart": false,
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#012"
   },
   "Tea house at Koishikawa. The morning after a snowfall": {
     "fname": "Tea_house_at_Koishikawa_The_morning_after_a_snowfall.jpg",
@@ -21,9 +24,12 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "$300",
+    "cart": true,
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#011"
   },
   "Ejiri in Suruga Province": {
     "fname": "Ejiri_in_the_Suruga_province.jpg",
@@ -34,9 +40,12 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "300",
+    "price": "",
+    "cart": false,
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#010"
   },
   "Under Mannen Bridge at Fukagawa": {
     "fname": "Fuji_seen_through_the_Mannen_bridge_at_Fukagawa.jpg",
@@ -47,9 +56,11 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#009"
   },
   "Sundai, Edo": {
     "fname": "The_Fuji_seen_from_the_Mishima_pass.jpg",
@@ -60,9 +71,11 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#008"
   },
   "Cushion Pine at Aoyama": {
     "fname": "The_coast_of_seven_leages_in_Kamakura.jpg",
@@ -73,9 +86,11 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#007"
   },
   "Enoshima in Sagami Province": {
     "fname": "Enoshima_in_the_Sagami_province.jpg",
@@ -86,9 +101,11 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#006"
   },
   "A sketch of the Mitsui shop in Suruga in Edo (present-day Muromachi, Tokyo)": {
     "fname": "A_sketch_of_the_Mitsui_shop_in_Suruga_street_in_Edo.jpg",
@@ -99,9 +116,11 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#005"
   },
   "Hodogaya on the Tōkaidō": {
     "fname": "Hodogaya_on_the_Tokaido.jpg",
@@ -112,9 +131,11 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#004"
   },
   "Tsukuda Island in Musashi Province": {
     "fname": "Tsukada_Island_in_the_Musashi_province.jpg",
@@ -125,9 +146,11 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#003"
   },
   "Shichiri beach in Sagami Province": {
     "fname": "Shichiri_beach_in_Sagami_province.jpg",
@@ -138,9 +161,11 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#002"
   },
   "Mount Fuji from the mountains of Tōtōmi": {
     "fname": "The_Fuji_from_the_mountains_of_Totomi.jpg",
@@ -151,8 +176,10 @@ catalog = {
     "iheight": "213",
     "dwidth": "1024",
     "dheight": "681",
-    "price": "price on demand",
+    "price": "",
     "medium": "canvas",
-    "size": "40x26 in"
+    "size": "40x26",
+    "units": "in",
+    "id": "#001"
   }
 };
