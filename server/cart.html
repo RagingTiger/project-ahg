@@ -28,8 +28,8 @@
 
        .rmItem {
          background-color:black;
-         border-color:red;
-         color:red;
+         border-color: inherit;
+         color: inherit;
          font-size: 1rem;
          border-radius: 1em;
          cursor: pointer;
@@ -39,13 +39,15 @@
 
        .rmItem:focus {
          outline: none;
-         border-color: #cc00ff;
-         color: #ccddff;
+       }
+
+       .rmItem:hover {
+         color: orange;
        }
 
        .emptyCart {
          margin: auto auto;
-         line-height: 3;
+         line-height: 6;
          text-align: center;
        }
 
@@ -85,7 +87,7 @@
           let span_elem = document.createElement('span');
 
           // add text to inner HTML of span element
-          span_elem.innerHTML = `$${value}` + ' ';
+          span_elem.innerHTML = `${value}` + ' ';
 
           // add style to span element
           span_elem.style.float = 'right';
