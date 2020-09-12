@@ -51,15 +51,41 @@ function itemGen() {
       `       alt="${key}">`
     ].join('\n');
 
+    // setup vars for adding data to buttons
+    var addBtn;
+    var contact_href = document.getElementById('contact').href;
+    const btnData = `data-name="${key}" data-price="${item['price']}"` + " " +
+                    `data-id="${item['id']}"`;
+
     // check if add2cart is necessary
-    var addBtn = '';
-    if (isPriceNumeric(item['price'])) {
-      let btnTitle = `Add ${key} ${item['medium']} ${item['size']} to Cart`;
-      let btnData = `data-name="${key}" data-price="${item['price']}"`;
+    if (item['price'] === ''){
+      let btnAttrs = `title="Request price for ${key} ${item['medium']}` +
+                      " " + `${item['size']}" ${btnData}`;
       var addBtn = [
-        `    <button class="add2Cart" ${btnData} title="${btnTitle}">`,
-        '      purchase',
+        `    <a href="${contact_href}">`,
+        `      <button class="contact2order" ${btnAttrs}>`,
+        '        request price',
+        '      </button>',
+        '    </a>'
+      ].join('\n');
+    } else if (item['cart']) {
+      let btnAttrs = `title="Add${key} ${item['medium']} ${item['size']}"` +
+                     " " + `${btnData}`;
+      var addBtn = [
+        `    <button class="add2Cart" ${btnAttrs}>`,
+        '      add to cart',
         '    </button>'
+      ].join('\n');
+    } else {
+      // otherwise set button to contact info to order
+      let btnAttrs = `title="Contact us to order ${key} ${item['medium']}` +
+                     " " + `${item['size']}" ${btnData}`;
+      var addBtn = [
+        `    <a href="${contact_href}">`,
+        `      <button class="contact2order" ${btnAttrs}>`,
+        '        contact to order',
+        '      </button>',
+        '    </a>'
       ].join('\n');
     }
 
@@ -67,7 +93,8 @@ function itemGen() {
     var itemDesc = [
       '  <div id="item-desc">',
       '    <span>',
-      `      ${item['medium']} | ${item['size']} | ${item['price']} |`,
+      `      item ${item['id']} | ${item['medium']} | ${item['size']}` + " " +
+             `${item['units']} | ${item['price']}`,
       addBtn,
       '    </span>',
       '  </div>'
