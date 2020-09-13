@@ -14,8 +14,8 @@ function galleryGen() {
     let galleryItem = [
       '  <a href=item.html?' + params.toString() + '>',
       '    <img class="gallery-item"',
-      `         src="${value['fdir']}/${value['fname']}"`,
-      `         width="${value['iwidth']}" height="${value['iheight']}"`,
+      `         src="${value['fpath']}/${value['fname']}"`,
+      `         width="${value['gal_width']}" height="${value['gal_height']}"`,
       `         alt="${key}">`,
       '  </a>'
     ].join('\n');
