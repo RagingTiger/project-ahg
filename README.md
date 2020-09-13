@@ -55,3 +55,26 @@ These `attributes` are all used in generating the `HTML dynamically` in the
 + `size`: Size of the piece
 + `units`: Units used by `size` attribute
 + `id`: Unique numerical `item` identification number
+
+## Production Features: Volume Mounts
+The `data` and `images` directories in the `server` directory have been wiped
+clean in order to be populated with the content (i.e. the `catalog.js` and
+images of your choosing).
+
+For example, first we build the `Docker` image for the `NGINX` server that will
+be serving this `static` content:
+```
+$ docker build -t ahg .
+```
+
+Then we run the container for the image that will server our `static` content:
+```
+$ docker run -d \
+             -v server/data:/usr/share/nginx/html/data \
+             -v server/images:/usr/share/nginx/html/images \
+             -p 80:80 \
+             ahg
+```
+Notice here we are `volume mounting` the `data` and `images` directories into
+the `Docker container` and in the `/usr/share/nginx/html` directory (i.e. the
+default `NGINX` server directory) where our `static` content is being served
