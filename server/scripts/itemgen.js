@@ -33,20 +33,20 @@ function itemGen() {
     const item = catalog[key];
 
     // set up vars for control flow on img w/h for mobile vs. desktop
-    var item_w = item['dwidth'];
-    var item_h = item['dheight'];
+    var item_w = item['itm_width'];
+    var item_h = item['itm_height'];
 
     // test for mobile device
     if (/Mobi/.test(navigator.userAgent)) {
       // user is on mobile change to original gallery size
-      item_w = item['iwidth'];
-      item_h = item['iheight'];
+      item_w = item['gal_width'];
+      item_h = item['gal_height'];
     }
 
     // setup item image
     var itemImg = [
       '  <img class="item"',
-      `       src="${item['fdir']}/${item['fname']}"`,
+      `       src="${item['fpath']}/${item['fname']}"`,
       `       width="${item_w}" height="${item_h}"`,
       `       alt="${key}">`
     ].join('\n');
