@@ -16,7 +16,7 @@ function galleryGen() {
       '    <img class="gallery-item"',
       `         src="${value['fpath']}/${value['fname']}"`,
       `         width="${value['gal_width']}" height="${value['gal_height']}"`,
-      `         alt="${key}">`,
+      `         style="object-fit:cover;" alt="${key}">`,
       '  </a>'
     ].join('\n');
 

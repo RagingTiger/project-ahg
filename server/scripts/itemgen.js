@@ -48,7 +48,7 @@ function itemGen() {
       '  <img class="item"',
       `       src="${item['fpath']}/${item['fname']}"`,
       `       width="${item_w}" height="${item_h}"`,
-      `       alt="${key}">`
+      `         style="object-fit:cover;" alt="${key}">`,
     ].join('\n');
 
     // setup vars for adding data to buttons
